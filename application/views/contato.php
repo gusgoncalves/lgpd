@@ -215,6 +215,40 @@
 				</div>
 			</div>
 		</div>
+		<!-- ===============================MODAL DOS CONTATO =================================-->
+		<div class="modal fade" id="myModal1" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<div class="panel panel-primary">
+						<div class="panel-heading"><b><center>FUNCIONÁRIOS</center></b></div>
+						<div class="panel-body">
+							<table class="table table-striped table-bordered table-responsive">
+							<th>NOME:</th>
+							<th>WHATSAPP:</th>
+							<th>VER</th>
+							<?php foreach($funcionario_data as $k => $v ) : ?>
+								<tr>                  
+								<td class="width:10%"><?= strtoupper($v['nome']); ?></td>
+								<td><?= strtoupper($v['whatsapp']);?></td>
+								<td><a href="<?php echo base_url('funcionarios/update/'.$cliente_data['id']) ?>" class="btn btn-primary"><i class="fa fa-pencil"></i></a></td>
+								</tr>
+								</a>
+							<?php endforeach; ?>
+							</table>
+						</div>
+						</div>
+					</div>"
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">FECHAR</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ======================================================================================= -->
 	</body>
 </html>
 <script>

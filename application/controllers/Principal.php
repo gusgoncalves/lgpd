@@ -8,9 +8,16 @@ class Principal extends Admin_Controller {
 
 		$this->data['titulo'] = 'LGPD';
 	}
-
+	//================================================
 	public function index()
 	{
 		$this->render_template('lgpd', $this->data);
+	}
+	//==================================================
+	public function contato(){
+		
+		$this->data['titulo'] = 'FORMULÁRIO DE CONTATO';
+		$this->render_template('contato', $this->data);
+
 	}
 }
