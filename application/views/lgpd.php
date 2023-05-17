@@ -2,6 +2,9 @@
 			<div class="main-container">
 				<div class="content-detail">
 					<div class="row">
+					<div class="col-md-12">
+						<a href="https://servicos.pontagrossa.pr.gov.br/portaltransparencia/esic" target="_BLANK" class="btn btn-success form-control btn-lg"> <i class="fas fa-lock"></i>  ENTRE EM CONTATO</a>
+					</div>
 						<div class="faq">
 							<button class="accordion">
 								<div>O que é a Lei Geral de Proteção de Dados – LGPD?</div>
