@@ -1,9 +1,15 @@
 <header class="main-header">
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><span class="logo-mini"><img src="<?= base_url('imagens/LGPD.png')?>" width="150px" height="50px"></span></a>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-  </div>
-</nav>
+  <nav class="navbar navbar-expand-lg bg-default">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><span class="logo-mini"><img src="<?= base_url('imagens/logo-LGPD.png')?>" width="150px" height="50px"></span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <p></p>
+        <a class="btn btn-success form-control btn-lg"> <i class="fas fa-lock"></i>  TIRE SUAS DÚVIDAS SOBRE A LGPD</a>
+      </div>
+    </div>
+  </nav>
     <div class="container-fluid">
 </header>
